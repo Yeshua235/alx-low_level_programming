@@ -5,9 +5,12 @@
 
 /**
 * print_list - check the code for Holberton School students.
+*
 * @h: name of the list
 * Return: the number of nodes.
+*
 */
+
 size_t print_list(const list_t *h)
 {
 int count = 0;
