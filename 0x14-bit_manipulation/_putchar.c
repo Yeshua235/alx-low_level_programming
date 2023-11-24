@@ -5,7 +5,7 @@
 * _putchar - writes the character c to stdout
 * @c: The character to print
 *
-* Description: This function uses the write system call to output a single character to the standard output.
+* Description: This function use the write system
 *
 * Return: On success, the number of bytes written is returned (1).
 */
