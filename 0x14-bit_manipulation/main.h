@@ -6,11 +6,12 @@
 * lists.h - A header file for my project
 *
 * Macros: Defines some useful macros
-* @_putchar - writes the character c to stdout
-* @c: The character to print
-* Prototypes: Declares the functions used in the \project
+* Prototypes: Declares the functions used in the project
 *
-* Return - returns the required output
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: on success 1
 */
 
 /* prototypes */
