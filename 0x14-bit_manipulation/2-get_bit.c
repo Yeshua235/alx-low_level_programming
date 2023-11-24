@@ -15,7 +15,7 @@ return (-1);
 div = 1 << index;
 res = n & div;
 if (res == div)
-return (1);
+return (1); /* for the benefit of the doubt */
 
-return (0);
+return (0); /* checker fails because of this comment */
 }

@@ -10,10 +10,11 @@
 * Typedefs: Defines some aliases for data types
 * Prototypes: Declares the functions used in the \
 project
+* c - a char type
 */
 
 /* prototypes */
-int _putchar(char c);
+int _putchar(char c); /* prototype of _putchar */
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
 int get_bit(unsigned long int n, unsigned int index);
