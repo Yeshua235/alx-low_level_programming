@@ -1,20 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <stddef.h>
-/**
-* lists.h - A header file for my project
-*
-* Macros: Defines some useful macros
-* Structs: Defines some custom data types
-* Typedefs: Defines some aliases for data types
-* Prototypes: Declares the functions used in the \
-project
-* Return - what is being returned
-*/
-
-/* prototypes */
-int _putchar(char c); /* Return - returns a character */
+int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
 int get_bit(unsigned long int n, unsigned int index);
