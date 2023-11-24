@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
 /**
 * lists.h - A header file for my project
 * 
